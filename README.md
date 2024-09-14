@@ -43,7 +43,7 @@ curl -X POST "https://api.interviewpro.com/session/feedback" \
       "feedback": "The interview was very insightful. I learned a lot about my weaknesses."
     }'
 curl -X POST "https://api.interviewpro.com/bot/chat" \
--H "Authorization: Bearer 1fc3fa99-15b7-4a9b-8f3e-4e0b78f58c42" \
+-H "Authorization: Bearer {api_key}" \
 -H "Content-Type: application/json" \
 -d '{ "user_id": "12345", "message": "How can I improve my body language?" }'
 
